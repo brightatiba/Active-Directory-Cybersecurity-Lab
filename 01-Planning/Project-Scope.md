@@ -6,7 +6,7 @@ This document defines the scope, objectives, boundaries, assumptions, technologi
 
 The project is based on the Active Directory environment developed for the fictional **BlueWave Manufacturing Pty Ltd** Governance, Risk and Compliance (GRC) case study.
 
-The purpose of this standalone project is to demonstrate the design, implementation, hardening, monitoring, testing, and assessment of a Microsoft Active Directory environment from a **cybersecurity engineering and GRC perspective**.
+The purpose of this project is to demonstrate the design, implementation, hardening, monitoring, testing, and assessment of a Microsoft Active Directory environment from a **cybersecurity engineering and GRC perspective**.
 
 This is not intended to be solely an IT support or system administration lab. Administrative technologies such as Active Directory Domain Services, DNS, Group Policy, Windows Server, Oracle VirtualBox, and pfSense are used as platforms through which cybersecurity controls are designed, implemented, validated, and documented.
 
