@@ -20,7 +20,7 @@ The architecture intentionally separates higher-risk systems into different secu
 ---
 ## Network Architecture
 
-![BlueWave AD Cybersecurity Lab Network Architecture](./diagrams/)
+![BlueWave AD Cybersecurity Lab Network Architecture](./diagrams/network-architecture.png)
 
 The lab is segmented into three security zones using pfSense:
 
