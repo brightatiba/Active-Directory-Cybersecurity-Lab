@@ -710,7 +710,7 @@ At completion, the Active-Directory-Cybersecurity-Lab will demonstrate the relat
 The final repository should demonstrate not simply that an Active Directory environment was built, but that it was **designed, secured, tested, assessed, and documented using cybersecurity and risk-management principles**.
 
 ---
-
+<!--
 # 25. Scope Review
 
 The scope should be reviewed whenever significant changes are made to:
@@ -725,7 +725,7 @@ The scope should be reviewed whenever significant changes are made to:
 * compliance-framework coverage.
 
 Changes that materially alter the security boundary should be reflected in this document and relevant architecture documentation.
-
+-->
 ---
 
 ## Document Status
