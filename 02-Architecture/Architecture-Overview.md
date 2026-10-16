@@ -166,7 +166,7 @@ See [`../01-Planning/Lab-Limitations.md`](../01-Planning/Lab-Limitations.md) for
 
 ## Security Validation
 
-The architecture will be validated throughout the project rather than relying only on configuration screenshots.
+The architecture was assessed through selected configuration and connectivity tests, rather than configuration screenshots alone.
 
 Examples include:
 
@@ -179,13 +179,7 @@ Examples include:
 * Windows security-event analysis; and
 * PowerShell security checks.
 
-Test results and evidence are maintained under:
-
-`10-Security-Validation/`
-
-and:
-
-`13-Evidence/`
+Test results and evidence are documented in the [GPO hardening](../05-Security-Controls/GPO-Security-Hardening.md), [network segmentation](../05-Security-Controls/Network-Segmentation.md), and [Evidence](../Evidence/) directories.
 
 ---
 
