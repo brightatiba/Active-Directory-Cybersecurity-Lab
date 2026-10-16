@@ -171,7 +171,7 @@ Risk scores should be reassessed when controls, exposure or business impacts cha
 | `04-Active-Directory/AD-Security-Review.md` | Privileged-access finding and remediation |
 | `05-Security-Controls/GPO-Security-Hardening.md` | Authentication and endpoint security controls |
 | `05-Security-Controls/Network-Segmentation.md` | Network risk treatment and validation |
-| `06-Security-Assessment/Security-Risk-Assessment.md` | Detailed risk methodology, scoring and rationale |
+| `06-Security-Assessment/Security-Risk-Assessments.md` | Detailed risk methodology, scoring and rationale |
 | `07-GRC/Control-Mapping.md` | ISO 27001, NIST CSF 2.0 and Essential Eight mapping |
 | `Evidence/` | Supporting technical screenshots and test results |
 
