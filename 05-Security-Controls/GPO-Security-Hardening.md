@@ -160,17 +160,17 @@ The findings will be considered in the consolidated GRC risk assessment and cont
 
 ## 9. Evidence
 
-Relevant screenshots are stored under:
+Supporting screenshots (relative to the repository root) are linked directly below:
 
-`Evidence/GPO/`
+| Control evidence | Screenshot |
+|---|---|
+| Domain account policy before hardening | [Before policy](../Evidence/GPO/domain-password-policy-before.png) |
+| Domain account policy after hardening | [After policy](../Evidence/GPO/domain-password-policy-after.png) |
+| CLIENT01 Defender operational status | [Defender validation](../Evidence/GPO/CLIENT01-defender-status.png) |
+| CLIENT01 Windows Firewall configuration | [Firewall validation](../Evidence/GPO/CLIENT01-firewall-validation.png) |
+| Advanced auditing settings | [Audit policy evidence](../Evidence/GPO/client01-advanced-auditing.png) |
 
-Evidence includes:
-
-- Domain account policy before and after remediation
-- CLIENT01 Defender status
-- Applied workstation GPO
-- Effective Windows Firewall profiles
-- Advanced auditing results
+The applied workstation GPO was checked using `gpresult`; no separate GPResult screenshot is currently committed. The supporting command/result is documented in Section 7.
 
 ## 10. GRC Outcome
 
