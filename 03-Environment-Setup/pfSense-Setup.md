@@ -112,61 +112,28 @@ These rules are useful during initial environment deployment but do not provide 
 
 A compromised system may be able to communicate with other security zones more broadly than required.
 
-### Planned Remediation
+### Subsequent Remediation
 
-During the Network Security phase, the broad rules will be replaced with explicitly authorised communication based on system and business requirements.
-
-The hardened configuration will then be validated using:
+The network-security assessment later restricted the tested IPv4 inter-zone paths, while maintaining explicit DNS/NTP exceptions for OT and Backup test systems. The controls were validated using:
 
 * connectivity testing;
 * port-specific testing;
 * negative access tests; and
 * pfSense firewall logs.
 
-This provides a measurable before-and-after security improvement.
-
----
-<!--
-## Validation
-
-The following checks were completed:
-
-* [x] BWCORP interface operational
-* [x] BWOT interface operational
-* [x] BWBACKUP interface operational
-* [x] Corporate DHCP configured
-* [x] Corporate DNS points to DC01
-* [x] DC01 uses static addressing
-* [x] DC01 uses pfSense as its default gateway
-* [x] Windows DNS service operational
-* [x] External DNS resolution successful
-* [x] Active Directory SRV records validated
-* [x] pfSense management changed to HTTPS
-* [x] HTTPS administrative access validated
-* [x] SSH remains disabled
-* [x] Baseline firewall rules reviewed
-* [x] Excessive inter-zone access identified for later remediation
+The results and residual gaps are recorded in [Network Segmentation](../05-Security-Controls/Network-Segmentation.md).
 
 ---
 
-## Evidence
+## Validation and Evidence
 
-Supporting evidence is maintained under:
+The baseline gateway, zone interfaces, DHCP, Active Directory DNS resolution, HTTPS WebGUI and disabled SSH management were validated during environment setup. Broad initial firewall permissions were subsequently remediated and tested in [Network Segmentation](../05-Security-Controls/Network-Segmentation.md).
 
-`13-Evidence/Screenshots/pfSense/`
+Supporting baseline and post-treatment pfSense screenshots are available in [Evidence/Network](../Evidence/Network/).
 
-Key evidence includes:
-
-* pfSense interface assignments;
-* Corporate DHCP configuration;
-* HTTPS management configuration; and
-* baseline firewall rules.
-
-The baseline firewall evidence will later be compared against the hardened firewall configuration implemented during the Network Security phase.
--->
 ---
 
 ## Security Outcome
 
-This task established pfSense as the central network gateway for the lab, corrected the Active Directory DNS distribution path, secured firewall administration using HTTPS, and identified excessive firewall access that will be remediated during network-security hardening.
+This task established pfSense as the central network gateway for the lab, corrected the Active Directory DNS distribution path, secured firewall administration using HTTPS, and identified excessive baseline firewall access that was subsequently addressed for the tested IPv4 paths.
 
