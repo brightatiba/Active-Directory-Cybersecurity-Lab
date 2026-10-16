@@ -32,22 +32,8 @@ The lab is segmented into three security zones using pfSense:
 
 pfSense acts as the routing and security enforcement point between the three zones.
 
-Inter-zone access follows a **default-deny, explicit-allow** approach. Required communication will be permitted through documented firewall rules and validated through connectivity testing and pfSense logs.
-<!--!
-## Network Architecture
-[Active Directory Cybersecurity Lab Network Architecture](diagrams/network-architecture.png)
+Inter-zone access follows a **default-deny, explicit-allow** approach. Selected IPv4 inter-zone paths were subsequently restricted and validated; explicit DNS/NTP exceptions were implemented for OT and Backup test hosts. See [Network Segmentation](../05-Security-Controls/Network-Segmentation.md).
 
-The environment uses three internal security zones.
-
-| Security Zone          | Subnet            | Gateway        | Purpose                                                           |
-| ---------------------- | ----------------- | -------------- | ----------------------------------------------------------------- |
-| Corporate / Management | `192.168.10.0/24` | `192.168.10.1` | Active Directory, servers, administration and corporate endpoints |
-| Manufacturing / OT     | `192.168.20.0/24` | `192.168.20.1` | Simulated manufacturing systems                                   |
-| Backup                 | `192.168.30.0/24` | `192.168.30.1` | Protected backup and recovery infrastructure                      |
-
-All inter-zone routing is performed by **PFSENSE01**.
-
--->
 ---
 
 ## Core Systems
@@ -82,7 +68,7 @@ The firewall design follows:
 
 > **Default deny between security zones, with required communication explicitly permitted.**
 
-Firewall rules and validation evidence are documented under `07-Network-Security/`.
+Firewall rules and validation results are documented in [Network Segmentation](../05-Security-Controls/Network-Segmentation.md).
 
 ---
 
@@ -105,7 +91,7 @@ Administrative activity is separated from normal user activity through dedicated
 
 This reduces exposure of privileged credentials on standard corporate endpoints.
 
-Privileged-access controls are documented under `06-Identity-Security/`.
+Privileged-access remediation is documented in the [AD Security Review](../04-Active-Directory/AD-Security-Review.md).
 
 ---
 
@@ -133,7 +119,7 @@ Backup network.
 
 Separating backup infrastructure reduces the likelihood that compromise of a normal corporate endpoint automatically provides access to recovery systems.
 
-This design supports ransomware resilience and recovery protection.
+This design reduces tested network exposure; actual backup creation or restoration was not tested.
 
 ---
 
