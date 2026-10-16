@@ -2,7 +2,7 @@
 
 **A hands-on cybersecurity governance, risk and compliance portfolio project**, supported by a Windows Active Directory and pfSense home lab.
 
-**Project status:** Seven-phase case study completed. Technical validation and GRC documents are committed; **supporting screenshots are pending upload**.
+**Project status:** Seven-phase case study completed. Technical validation and GRC documents are committed; **22 supporting evidence screenshots are committed**.
 
 ## Executive Summary
 
@@ -54,7 +54,7 @@ Ratings use a qualitative **5 × 5 likelihood × impact** methodology and are ap
 | Security governance and risk reporting | [Security risk assessment](06-Security-Assessment/Security-Risk-Assessments.md) · [Risk register](07-GRC/Risk-Register.md) |
 | Framework control alignment | [Control mapping](07-GRC/Control-Mapping.md) |
 
-The [Evidence directory](Evidence/) contains reserved paths for **Active Directory**, **GPO** and **Network** screenshots. Images were collected locally and **have not yet been uploaded**; screenshot links in technical documents may remain unavailable until then.
+The [Evidence directory](Evidence/) contains **22 committed screenshots**: [Active Directory](Evidence/Active-Directory/), [GPO](Evidence/GPO/) and [Network](Evidence/Network/). Relevant screenshots are linked from the corresponding implementation and security review documents. Evidence represents selected lab configurations and tests, not comprehensive production assurance.
 
 ## Project Navigation
 
