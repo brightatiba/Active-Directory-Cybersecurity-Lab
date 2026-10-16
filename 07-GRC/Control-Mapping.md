@@ -94,7 +94,7 @@ Residual ratings are qualitative assessments approved for fictional case-study u
 | `04-Active-Directory/AD-Security-Review.md` | IAM-01, IAM-02 |
 | `05-Security-Controls/GPO-Security-Hardening.md` | AUTH-01, END-01, END-02, LOG-01 |
 | `05-Security-Controls/Network-Segmentation.md` | NET-01, NET-02, NET-03, NET-04 |
-| `06-Security-Assessment/Security-Risk-Assessment.md` | Risk ratings, treatment decisions and residual gaps |
+| `06-Security-Assessment/Security-Risk-Assessments.md` | Risk ratings, treatment decisions and residual gaps |
 | `Evidence/Active-Directory/` | Privileged membership before/after screenshots |
 | `Evidence/GPO/` | Effective security settings, GPO application and audit results |
 | `Evidence/Network/` | Firewall configurations, connectivity tests, block logs and DNS/NTP verification |
