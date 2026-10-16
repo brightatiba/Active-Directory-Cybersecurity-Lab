@@ -132,11 +132,19 @@ These items will be considered during the consolidated GRC risk assessment.
 
 ## 9. Evidence
 
-Supporting screenshots are stored in:
+The following committed screenshots provide traceability for the network-control findings and validation:
 
-`Evidence/Network/`
+| Evidence | Screenshot |
+|---|---|
+| Initial unrestricted BWCORP rules | [Corporate baseline](../Evidence/Network/BWCORP-rules-before.png) |
+| Initial unrestricted BWOT rules | [OT baseline](../Evidence/Network/BWOT-rules-before.png) |
+| Initial unrestricted BWBACKUP rules | [Backup baseline](../Evidence/Network/BWBACKUP-rules-before.png) |
+| Corporate-to-restricted-zone firewall controls | [Corporate block rules](../Evidence/Network/BWCORP-block-rule.png) |
+| Corporate blocked-traffic log | [Corporate block log](../Evidence/Network/BWCORP-firewall-block-rule.png) |
+| OT blocked-traffic evidence | [OT block evidence](../Evidence/Network/BWOT-block-rule.png) |
+| Backup blocked-traffic evidence | [Backup block evidence](../Evidence/Network/BWBACKUP-block-rule.png) |
 
-Evidence includes baseline firewall rules, blocked-traffic logs, implemented firewall controls, DNS/NTP validation and before-and-after connectivity results.
+DNS and NTP continuity is documented by the test results in Section 7; separate DNS/NTP screenshots are not currently committed. These screenshots support selected IPv4 path tests, not complete network isolation.
 
 ## 10. GRC Outcome
 
