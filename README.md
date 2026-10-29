@@ -16,8 +16,6 @@ Built a simulated enterprise environment for the fictional Australian manufactur
 - Preserved approved lab **DNS/NTP** access for OT01 and BACKUP01.
 - Assessed **four business risk scenarios**, documented inherent/residual ratings and treatments, and mapped selected controls to **ISO/IEC 27001:2022**, **NIST CSF 2.0** and **ASD Essential Eight**.
 
-> **Assurance boundary:** This is a fictional, non-production case study. Validated results apply to the tested systems and connection paths only. Residual scores are provisional; no organisational risk acceptance, ISO certification, NIST compliance or Essential Eight maturity level is claimed.
-
 ## Architecture
 
 ![Three-zone BlueWave network architecture](02-Architecture/diagrams/network-architecture.drawio.png)
